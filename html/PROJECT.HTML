@@ -1,0 +1,83 @@
+<!-- Project: Personal Portfolio Webpage 
+Objective:  
+Create a Personal Portfolio Webpage using only HTML.  
+Requirements:  
+1. Use proper HTML structure (<!DOCTYPE html>, <html>, <head>, 
+<body>).  
+2. Include a header with your name and a short introduction.  
+3. Add a navigation bar (<nav>) with at least three links (e.g., Home, About, 
+Contact).  
+4. Display a profile picture using the <img> tag.  
+5. Include sections such as About Me, Skills, and Projects using <section> 
+and  
+1. <article>.  
+6. Use lists (<ul>, <ol>) to list your skills or hobbies.  
+7. Add a contact form for users to submit their name, email, and message.  
+8. Include a footer with copyright information.  -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+
+    </head>
+    <body><nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+    
+        </ul>
+    </nav>
+        <header> <h1>Vanshika Goswami</h1></header>
+        <p>My name is Vanshika Goswami. I am from Sonipat.
+            I am studying at Gurugram University,Gurugram and pursuing B.Tech in Computer Science. 
+           My areas of interest include AI, ML and Data Science.
+       </p>
+        <img src="profile.picture.jpg"width=100 height="120" alt="Profile Picture">
+       
+        <section id="about me">
+            <h2>About Me</h2>
+        <p>My name is Vanshika Goswami, and I am from Sonipat. I am currently pursuing a B.Tech in Computer Science at Gurugram University, Gurugram.  
+            My passion lies in the fields of Artificial Intelligence, Machine Learning, and Data Science. I enjoy exploring new technologies and developing innovative solutions to real-world problems.  
+            During my academic journey, I have worked on several projects, including a Deepfake Detection System, which enhanced my understanding of AI and cybersecurity. Additionally, I have gained experience in web development, learning essential technologies such as HTML, CSS, and JavaScript.  
+            I have also completed an internship at Edunet Foundation, where I worked on a project called Teenmate.  
+            I am eager to continue learning and growing in the world of AI and Data Science, aiming to contribute to cutting-edge research and technological advancements.</p>
+     </p>
+        </section>
+        <section id="Skills"> 
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                </ul>
+            </ul>
+
+             </section>
+        <section id="Projects"> 
+            <h2>Projects</h2>
+            <ul>
+                <li>Deepfake Detection System</li>
+                <li>Teenmate</li>
+                </ul>
+            </ul>
+        <section id="contact me form">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        </section>
+    </body>
+</html>
